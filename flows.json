@@ -1,1 +1,51 @@
-[]
+[
+    {
+        "id": "5184f8e08b8dbb00",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "983740ead37f7444",
+        "type": "inject",
+        "z": "5184f8e08b8dbb00",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hola Mundo",
+        "payloadType": "str",
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "d4c64b77f67075fa"
+            ]
+        ]
+    },
+    {
+        "id": "d4c64b77f67075fa",
+        "type": "debug",
+        "z": "5184f8e08b8dbb00",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 120,
+        "wires": []
+    }
+]
