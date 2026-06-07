@@ -1,0 +1,12 @@
+{
+    "name": "Expo_git",
+    "description": "Demostracion de el uso del git en node-red",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
